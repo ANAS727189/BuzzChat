@@ -8,7 +8,7 @@ import ReactScrollToBottom from "react-scroll-to-bottom";
 import backIcon from "../../assets/back2.png";
 import { useNavigate } from 'react-router-dom';
 
-const ENDPOINT = "https://chat-server-intw.onrender.com/";
+const ENDPOINT =  import.meta.env.VITE_SERVER_URL;
 let socket;
 
 const Chat = () => {
