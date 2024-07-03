@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Tailwind CSS Customization */
+@layer utilities {
+    .message.right {
+      @apply mb-4;
+    }
+    .message.left {
+      @apply mb-4;
+    }
+    @media (max-width: 640px) {
+      .message > div {
+        @apply max-w-[80%];
+      }
+    }
+  }
+  
