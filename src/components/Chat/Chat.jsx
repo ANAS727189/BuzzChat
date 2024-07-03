@@ -8,7 +8,7 @@ import ReactScrollToBottom from "react-scroll-to-bottom";
 import backIcon from "../../assets/back2.png";
 import { useNavigate } from 'react-router-dom';
 
-const ENDPOINT = "https://chat-server-new.vercel.app/";
+const ENDPOINT = "https://chat-server-intw.onrender.com/";
 let socket;
 
 const Chat = () => {
